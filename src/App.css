@@ -1,0 +1,94 @@
+.App {
+  position:absolute;  
+  text-align: center;
+  /* background-color:#000000dc; */
+
+  background: #5C258D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height:100%;
+}
+
+.ToolBar{
+  position:absolute; 
+  /* position:fixed */
+  text-align: center;
+  background-color:rgba(8, 8, 8, 0.685);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width:60px;
+  height: 100%;
+  top:0%;
+  left:0%;
+}
+
+
+
+.HomeButton{
+  background-color:rgba(8, 8, 8, 0.685);
+  color:white;  
+  border: none;
+  
+  width:60px;
+  height:60px;
+}
+
+.MeButton{
+  background-color:rgba(8, 8, 8, 0.685);
+  color:white;  
+  border: none;
+  
+  width:60px;
+  height:60px;
+}
+
+.SkillsButton{
+  background-color:rgba(8, 8, 8, 0.685);
+  color:white;  
+  border: none;
+  
+  width:60px;
+  height:60px;
+}
+
+.ProjectsButton{
+  background-color:rgba(8, 8, 8, 0.685);
+  color:white;  
+  border: none;
+  
+  width:60px;
+  height:60px;
+}
+
+.ContactButton{
+  background-color:rgba(8, 8, 8, 0.685);
+  color:white;  
+  border: none;
+  
+  width:60px;
+  height:60px;
+}
+
+.HomeButton:hover{
+  background-color: rgba(140, 19, 253, 0.664);
+}
+.MeButton:hover{
+  background-color: rgba(140, 19, 253, 0.664);
+}
+.SkillsButton:hover{
+  background-color: rgba(140, 19, 253, 0.664);
+}
+.ProjectsButton:hover{
+  background-color: rgba(140, 19, 253, 0.664);
+}
+
+.ContactButton:hover{
+  background-color: rgba(140, 19, 253, 0.664);
+}
+
+
