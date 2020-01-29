@@ -12,7 +12,7 @@ const particleOpt = {
             }
         },
         size: {
-            value: 5,
+            value: 10,
             random: true,
             anim: {
               enable: true,
@@ -72,11 +72,6 @@ class Home extends Component{
     render() {
         return(
             <div className = "HomeContents">
-                <div className = "HomeText">
-                    <h1>Hi,</h1>
-                    <h1>I'm <text className="Name">Sojeong Cheon <text className="Smile">;)</text></text></h1>
-                    <h1>Medical Image Processing Researcher.</h1>
-                </div>
                 <Particles 
                 style = {{
                     position: "absolute",
@@ -88,6 +83,11 @@ class Home extends Component{
                 }}
                 params={particleOpt} 
                 />
+                <div className = "HomeText">
+                    <h1>Hi,</h1>
+                    <h1>I'm <text className="Name">Sojeong Cheon <text className="Smile">;)</text></text></h1>
+                    <h1>Medical Image Processing Researcher.</h1>
+                </div>
 
 
             </div>

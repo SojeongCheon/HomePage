@@ -137,6 +137,7 @@
   height: 30%;
   
   color: rgb(0, 0, 0);
+  opacity: 0.9;
   font-size: 40px;
   font-weight: 1000;
   text-align: left;
@@ -149,4 +150,33 @@
 
 .Smile{
   color: #ff0000;
+}
+
+.AboutPage {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+.ProjectPage {
+  position:absolute; 
+  left: 10%;
+  top: 10%;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+.ContactPage {
+  position:absolute; 
+  width: 70%;
+  height: 70%;
+  left: 10%;
+  top: 10%;
+  background-color: white;
 }
