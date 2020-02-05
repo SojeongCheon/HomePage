@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Particles from 'react-particles-js';
-
+import './homepage.css'
 
 const particleOpt = {
     particles: {
@@ -71,24 +71,24 @@ const particleOpt = {
 class Home extends Component{
     render() {
         return(
-            <div className = "HomeContents">
+            <div className = "HomePage">
+                
                 <Particles 
                 style = {{
                     position: "absolute",
                     top: 0,
                     bottom: 0,
-                    left: "60px",
                     width: "100%",
                     height: "100%"
                 }}
                 params={particleOpt} 
                 />
+
                 <div className = "HomeText">
                     <h1>Hi,</h1>
                     <h1>I'm <text className="Name">Sojeong Cheon <text className="Smile">;)</text></text></h1>
                     <h1>Medical Image Processing Researcher.</h1>
                 </div>
-
 
             </div>
         )
