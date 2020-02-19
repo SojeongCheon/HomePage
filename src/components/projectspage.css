@@ -8,12 +8,24 @@
 
 
     width: 100%;
-    height:100%;;
-    padding-top : 20px;
-
-    background-color: rgba(0, 0, 0, 0.945);
+    height:100%;
+    background-color: rgba(255, 0, 0, 0.945);
 }
 
+.ProjectPage::-webkit-scrollbar{
+    /* display:none; */
+}
+
+ 
+.ProjectPage::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+.ProjectPage::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
 
 .ProjectEntry{
     width:400px;

@@ -10,14 +10,15 @@ class Me extends Component{
 
         return(
             <div className = "AboutPage">
-                <div className = "Intro">
+                <div className="Intro">
                     <div style = {style} className="Img"></div>
                     <div className="IntroText">Sojeong Cheon</div>
-                </div>   
-                <div className = "Details">
+                </div>
+
+                <div className="Details">
+                    <div className="Details-title">Education</div>
                     <div>Education</div>
-                    <div>Education</div>
-                </div> 
+                </div>
             </div>
         )
     }
