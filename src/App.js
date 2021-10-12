@@ -13,6 +13,7 @@ import Button from './Button';
 // button 클릭 했을 때 다른 기능 하게 하려면 막 상속 같은거 받아서 따로 만들어야 하는건가???
 // 글고 link 이렇게 넣는게 최선인것인가....????
 // scroll 짱나는데.... 가로 스크롤은 없애교... 툴바는 스크롤 내리면 밑에 안습ㅋㅋㅋㅋㅋ
+// https://react-icons.github.io/react-icons 여기서 아이콘 따오는디?
 
 class App extends Component {
   render(){
